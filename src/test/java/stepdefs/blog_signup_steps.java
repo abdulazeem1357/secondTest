@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import static org.junit.Assert.assertEquals;
 
-public class DemoDefinitions {
+public class blog_signup_steps {
 
     WebDriver driver;
 
