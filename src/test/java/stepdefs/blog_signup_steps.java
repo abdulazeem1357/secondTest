@@ -16,6 +16,8 @@ public class blog_signup_steps {
         System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
 //        driver = new FirefoxDriver();
         driver = new ChromeDriver();
+
+//        maximizing the window
         driver.manage().window().maximize();
     }
 
