@@ -3,6 +3,7 @@ import cucumber.api.java.en.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import static org.junit.Assert.assertEquals;
 
@@ -12,8 +13,9 @@ public class blog_signup_steps {
 
     @Given("I launch the browser")
     public void iLaunchTheBrowser() {
-        System.setProperty("webdriver.gecko.driver", "C://geckodriver.exe");
-        driver= new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
+//        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
