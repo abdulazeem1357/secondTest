@@ -11,6 +11,7 @@ public class blog_signup_steps {
 
     WebDriver driver;
 
+//    testing the jenkins
     @Given("I launch the browser")
     public void iLaunchTheBrowser() {
         System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
